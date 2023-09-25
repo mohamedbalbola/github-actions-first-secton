@@ -1,0 +1,11 @@
+name: firstjob
+on: workflow:dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu:latest
+    steps:
+      - name: print my name 
+        run: echo "my name is mohamed balboula"
+    steps:
+      - name: print my message 
+        run: echo "this is coming from github actions bitches"
